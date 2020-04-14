@@ -26,19 +26,30 @@ class P2pServer {
     this.sockets.push(socket);
     console.log('Socket connected');
     this.messageHandler(socket);
-    socket.send(JSON.stringify(this.blockchain.chain));
+
+  this.sendChain(socket);
   }
+
 
   messageHandler(socket) {
   	socket.on('message', message => {
       const data = JSON.parse(message);
+      this.blockchain.replaceChain(data);
+
       console.log('data', data);
   });
 
 }
-
+sendChain(socket) {
+socket.send(JSON.stringify(this.blockchain.chain));
 }
 
+syncChains() {
+this.sockets.forEach(socket => {
+  this.sockets.forEach(socket => this.sendChain(socket));
+});
+}
 
+}
 
 module.exports = P2pServer;
