@@ -1,7 +1,15 @@
-# CYPROCOIN
+# CYPRIOCOIN 2020
+
+## Description
 This is a block-chain application that will be used to make the Cyprio-coin.
 
-# Development
+## Technologies used.
+
+* Postman App.
+* Git bash.
+* Atom IDE.
+
+## Development
 Run all tests:
 
 ```
@@ -16,8 +24,8 @@ $ npm run test-windows
 $ npm run dev
 ```
 
-# Bugs.
+## Bugs.
 The chain string is not being identified by websockets.
 
-# Collaborations.
+## Collaborations.
 Currently working on building the app. Any open source collaborations are welcome.
