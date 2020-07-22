@@ -1,4 +1,4 @@
-# BlockChainAppByNdolo Winter
+# BlockChainApp By Ndolo Winter
 
 ## Description
 This is a fully functional block-chain application.
