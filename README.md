@@ -1,7 +1,7 @@
-# CYPRIOCOIN 2020
+# BlockChainAppByNdolo Winter
 
 ## Description
-This is a block-chain application that will be used to make the Cyprio-coin.
+This is a fully functional block-chain application.
 
 ## Technologies used.
 
@@ -25,7 +25,7 @@ $ npm run dev
 ```
 
 ## Bugs.
-The chain string is not being identified by websockets.
+There are no bugs.
 
 ## Collaborations.
-Currently working on building the app. Any open source collaborations are welcome.
+This is officially an open source project. All ideas and suggestions are welcome.
